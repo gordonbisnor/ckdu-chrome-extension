@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CKDU 88.1 FM</title>
+	  <style>
+      html, body {
+        min-width: 300px;
+        width: auto;
+        height: auto;
+      }
+      html, body, ul {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        font-size: 100%;
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+      }
+      li {
+        margin: 0;
+        padding: 1em;
+        text-align: left;
+        transition: background-color .125s, color .125s;
+        color: #177ff3;
+      }
+      li:hover {
+        background-color: #177ff3;
+        cursor: pointer;
+        color: white;
+      }
+      li + li {
+        border-top: 1px solid #CCC
+      }
+      li img {
+        width: 12px;
+        height: 12px;
+        margin-right: 12px;
+      }
+      li#stop {
+        color: #dd4e42;
+      }
+      li#stop:hover {
+       color: white;
+       background-color: #dd4e42;; 
+      }
+	  </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <ul id="items">
+    </ul>
+  </body>
+</html>
