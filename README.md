@@ -1,4 +1,4 @@
-![alt CKDU 88.1 FM](logo.png)
+![alt CKDU 88.1 FM](ckdu-color.svg)
 
 # CKDU 88.1 FM Chrome Extension
 

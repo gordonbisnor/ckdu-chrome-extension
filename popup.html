@@ -3,6 +3,13 @@
   <head>
     <title>CKDU 88.1 FM</title>
 	  <style>
+      * {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
+        user-drag: none; 
+        -webkit-user-drag: none;
+      }
       html, body {
         min-width: 300px;
         min-height: 225px!important;
@@ -104,33 +111,33 @@
   }
 }
 
-
-
 @keyframes wobble {
   0% {
-    transform:rotate(0deg) translate(0,0) scale(1);
+    transform:rotate(0deg) scale(1);
   }
-    25% {
-    transform:rotate(-0.25deg) scale(1.03125)   translate(.03125em,0);
+  25% {
+    transform:rotate(-0.5deg) scale(1.03125);
   }
-      50% {
-    transform:rotate(0deg) scale(1)  translate(.0625em,0);
+  50% {
+    transform:rotate(0deg) scale(1);
   }
-      75% {
-    transform: rotate(-0.25deg)scale(1.03125)   translate(.0625em,0);
+  75% {
+    transform: rotate(-0.5deg) scale(1.03125);
   }
-    100% {
-    transform:rotate(0deg) translate(0,0);
+  100% {
+    transform: rotate(0deg) scale(1);
   }
 }
-
+.logo {
+  max-width: 130px;
+}
 	  </style>
     <script src="popup.js"></script>
   </head>
   <body>
     <header>
       <div>
-        <img src="logo-close-crop.png" alt="CKDU 88.1FM"/>
+        <img src="ckdu-color.svg" alt="CKDU 88.1FM" class="logo"/>
       </div>
       <div>
         <h1>CKDU 88.1 FM</h1>
